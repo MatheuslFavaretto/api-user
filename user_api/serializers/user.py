@@ -1,10 +1,10 @@
 from django.utils import timezone
 from rest_framework import serializers
 
-from email_model.serializers import EmailSerializer
-from cpf_model.serializer import CpfSerializer
-from endereco_model.serializer import EnderecoSerializer  
-from .models import User
+from user_api.serializers.email import EmailSerializer
+from user_api.serializers.cpf import CpfSerializer
+from user_api.serializers.endereco import EnderecoSerializer  
+from user_api.models.user import User
 
 from dateutil.relativedelta import relativedelta
 

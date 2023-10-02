@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import Endereco
+from user_api.models.endereco import Endereco
+
 
 class EnderecoSerializer(serializers.ModelSerializer):
     def validate_cep(self, value):

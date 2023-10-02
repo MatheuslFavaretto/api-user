@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from .models import CPF
-from .serializer import CpfSerializer
+from user_api.models.cpf import CPF
+from user_api.serializers.cpf import CpfSerializer
 
 
 class CpfViewSet(viewsets.ModelViewSet):

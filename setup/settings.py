@@ -37,11 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'email_model', 
     'user_api',     
     'rest_framework',
-    'cpf_model',
-    'endereco_model',
 ]
 
 MIDDLEWARE = [

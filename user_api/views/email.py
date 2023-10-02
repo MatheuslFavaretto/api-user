@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from .models import Email
-from .serializers import EmailSerializer
+from user_api.models.email import Email
+from user_api.serializers.email import EmailSerializer
 
 
 class EmailViewSet(viewsets.ModelViewSet):
