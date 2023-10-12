@@ -14,7 +14,7 @@ classDiagram
   class Pessoa {
     + nome: string
     + email: Email
-    * birth_date: date
+    + birth_date: date
     + cpf: CPF
     + endereco: Endereco
     + cadastrar(nome: string, email: Email, cpf: CPF, endereco: Endereco): type
