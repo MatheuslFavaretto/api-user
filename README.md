@@ -47,6 +47,14 @@ classDiagram
   Pessoa "1" *-- "1" Endereco
 
 ```
+## Requisitos
 
+ - **Docker-compose**
+
+## No Repositorio execute o comando:
+
+```
+docker-compose up -d
+```
 
 URL de da api: http://localhost:8000/v1/api/users/
